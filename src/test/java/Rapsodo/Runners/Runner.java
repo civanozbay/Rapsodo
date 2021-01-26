@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/Features",
         glue = "Rapsodo/Step_Definitions",
         dryRun = false,
-        tags = "@wip"
+        tags = "@all"
 )
 public class Runner {
 
