@@ -5,5 +5,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class DashboardPage extends BasePage{
     @FindBy(xpath = "//a[@title='SHOP']")
-    public WebElement shop;
+    public WebElement shopMenuItem;
+
+    @FindBy(xpath = "//a[@title='DIAMOND SPORTS']")
+    public WebElement diamondSportsOption;
 }
