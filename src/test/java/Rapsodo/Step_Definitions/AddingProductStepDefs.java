@@ -47,7 +47,6 @@ public class AddingProductStepDefs {
         int i = currentUrl.indexOf("?");
         String substring = currentUrl.substring(i);
         Assert.assertEquals(string,substring);
-
     }
 
 
